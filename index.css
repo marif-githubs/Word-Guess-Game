@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+#div{
+    width: 510;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: solid 3px black;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 510px;
+    margin: auto;
+}
+.inp{
+    height: 80px;
+    width: 80px;
+    font-size: 80px;
+    font-family:monospace;
+    border: rgb(247, 231, 143) 5px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.correct-guess{
+    animation:  correct-g 4s 4;
+}
+
+.wrong-guess{
+    animation: wrong-g 5s 3;
+}
